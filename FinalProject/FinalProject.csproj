@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
   <PropertyGroup>
@@ -6,12 +6,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BC6E6087-611D-4C30-836F-8A283BAEACA7}</ProjectGuid>
+    <ProjectGuid>{F5BD6251-F623-4D55-9355-5458919E783E}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Game3</RootNamespace>
-    <AssemblyName>Game3</AssemblyName>
+    <RootNamespace>FinalProject</RootNamespace>
+    <AssemblyName>FinalProject</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -60,10 +60,12 @@
   <ItemGroup>
     <Compile Include="Activity1.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="OurCharacter.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Content\test.spritefont" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
@@ -87,6 +89,31 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\black.jpg" />
+    <Content Include="Content\black2.jpg" />
+    <Content Include="Content\button.png" />
+    <Content Include="Content\button2.png" />
+    <Content Include="Content\chest.png" />
+    <Content Include="Content\creepy_background.jpg" />
+    <Content Include="Content\fog.png" />
+    <Content Include="Content\footsteps.mp3" />
+    <Content Include="Content\ghost.png" />
+    <Content Include="Content\ghost_song.mp3" />
+    <Content Include="Content\laugh.mp3" />
+    <Content Include="Content\lose.jpg" />
+    <Content Include="Content\main_character\backward.png" />
+    <Content Include="Content\main_character\forward.png" />
+    <Content Include="Content\main_character\forward_stand.png" />
+    <Content Include="Content\main_character\left.png" />
+    <Content Include="Content\main_character\left_stand.png" />
+    <Content Include="Content\main_character\right.png" />
+    <Content Include="Content\main_character\right_stand.png" />
+    <Content Include="Content\main_character\stand.png" />
+    <Content Include="Content\song.mp3" />
+    <Content Include="Content\torchlight.png" />
+    <Content Include="Content\win.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />

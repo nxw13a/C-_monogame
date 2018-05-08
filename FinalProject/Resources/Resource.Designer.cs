@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Game3.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("FinalProject.Resource", IsApplication=true)]
 
-namespace Game3
+namespace FinalProject
 {
 	
 	
